@@ -1,0 +1,13 @@
+{
+  "name": "Close the Rest",
+  "version": "0.1",
+  "description": "Close windows other than the one you have open",
+  "browser_action": {
+    "default_icon": "x.png"
+  },
+  "background": {
+	  "scripts": ["closeRest.js"],
+	  "background": false
+  },
+  "manifest_version": 2
+}
